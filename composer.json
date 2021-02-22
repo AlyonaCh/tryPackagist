@@ -11,7 +11,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Otus\\": "src/Otus"
+            "Otus\\Package\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit": ">=9.3"
     }
 }
