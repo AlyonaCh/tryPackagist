@@ -1,0 +1,17 @@
+{
+    "name": "alyonach/otus",
+    "description": "Composer package",
+    "authors": [
+        {
+            "name": "Alyona Chernyaeva"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Otus\\": "src/Otus"
+        }
+    }
+}
